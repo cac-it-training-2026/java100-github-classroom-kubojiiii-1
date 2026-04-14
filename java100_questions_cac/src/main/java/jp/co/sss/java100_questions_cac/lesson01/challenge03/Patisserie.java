@@ -22,5 +22,24 @@
 package jp.co.sss.java100_questions_cac.lesson01.challenge03;
 
 public class Patisserie {
+	public static void main(String[] args) {
+		System.out.println("たいへんお待たせしました。");
+		System.out.println("【ポエール・ネルメ】");
+		System.out.println("ただいまより回転です！！");
+
+		System.out.println("本日のおすすめ");
+		System.out.println("シトロン　　　\\250");
+		System.out.println("ショコラ　　　\\280");
+		System.out.println("ピスターシュ　\\320");
+
+		int num1 = 30;
+		int num2 = 30;
+		int num3 = 30;
+
+		System.out.println("本日のおすすめ商品です\n");
+		System.out.println("シトロン　　　\\250　・・・　残り" + num1 + "個");
+		System.out.println("ショコラ　　　\\280　・・・　残り" + num2 + "個");
+		System.out.println("ピスターシュ　\\320　・・・　残り" + num3 + "個");
+	}
 
 }
